@@ -233,6 +233,7 @@ body.dark .equal{
 @media (max-width: 600px) {
   .container {
     width: 90%;
+    margin-top: -50px;
   }
   body {
     font-size: 25px;
