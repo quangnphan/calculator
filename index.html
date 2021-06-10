@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Calculator app</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav">
+        <div class="logo">calc</div>
+        <div class="themes">
+          <div class="themes-text">theme</div>
+          <div>
+            <div class="themes-number">1 2 3</div>
+            <div class="switch-toggle switch-3 switch-candy">
+
+              <input id="on" name="state-d" type="radio" checked="" />
+              <label for="on" onclick=""></label>
+            
+              <input id="na" name="state-d" type="radio" checked="checked" />
+              <label for="na" class="disabled" onclick=""></label>
+            
+              <input id="off" name="state-d" type="radio" />
+              <label for="off" onclick=""></label>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="output">
+        <div class="prev-operand"></div>
+        <div class="curr-operand"></div>
+      </div>
+      <div class="grid">
+        <div class="buttons number">7</div>
+        <div class="buttons number">8</div>
+        <div class="buttons number">9</div>
+        <div class="buttons del">del</div>
+        <div class="buttons number">4</div>
+        <div class="buttons number">5</div>
+        <div class="buttons number">6</div>
+        <div class="buttons operator">+</div>
+        <div class="buttons number">1</div>
+        <div class="buttons number">2</div>
+        <div class="buttons number">3</div>
+        <div class="buttons operator">-</div>
+        <div class="buttons number">.</div>
+        <div class="buttons number">0</div>
+        <div class="buttons operator">/</div>
+        <div class="buttons operator">x</div>
+        <div class="buttons reset">reset</div>
+        <div class="buttons equal">=</div>
+      </div>
+    </div>
+
+
+    <script src="index.js"></script>
+  </body>
+</html>
